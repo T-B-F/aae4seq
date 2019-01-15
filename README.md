@@ -1,2 +1,2 @@
 # seq2aae
-Tools to encode protein sequences using an Adversarial AutoEncoder
+Set of tools to encode protein sequences using an Adversarial AutoEncoder and explore the corresponding latent space

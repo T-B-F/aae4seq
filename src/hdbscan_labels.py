@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+""" apply hdbscan on samples
+"""
 
 import os, sys, argparse
 import hdbscan
@@ -13,7 +15,7 @@ def get_cmd():
     fileargs.add_argument("-i", action="store", dest="inputfile")
     fileargs.add_argument("-o", action="store", dest="outputfile")
 
-    clsargs = parser.add_argument_group('Bayesian Gaussian Mixture')
+    clsargs = parser.add_argument_group('HDBSCAN parameters')
     clsargs.add_argument("--min_cluster_size", action="store", dest="min_cluster_size", default=30, type=int)
     clsargs.add_argument("--min_samples", action="store", dest="min_samples", type=int, default=-1)
     clsargs.add_argument("--metric", action="store", dest="metric", default="euclidean")

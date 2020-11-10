@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+""" visualize latent space
+"""
 
 import os, sys, argparse
 import matplotlib.pyplot as plt

@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+""" gaussian mixture model over samples
+"""
 
 from sklearn.mixture import GaussianMixture, BayesianGaussianMixture
 import os, sys, argparse

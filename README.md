@@ -10,6 +10,10 @@ Create a conda environment and activate it
 conda create --name aae python=3.6
 conda activate aae
 ```
+(for analyses, install ete3)
+```
+conda install -c etetoolkit ete3 ete_toolchain 
+```
 
 Install required packages
 

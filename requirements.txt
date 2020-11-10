@@ -5,4 +5,5 @@ pandas==1.1.4
 tensorflow==2.3.1
 biopython==1.78
 matplotlib==3.3.2 
-pybioutils==0.2
+git+https://github.com/T-B-F/pybioutils
+hdbscan==0.8.26

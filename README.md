@@ -31,7 +31,7 @@ export PYTHONPATH=$PWD:$PYTHONPATH
 ## Train a model
 
 
-Train the exemple model
+Train the example model
 ```bash
 python src/aae_model.py -i data/Sulfatases/fasta/hmmsearch_gc90_gs25.fasta -o log/ 
 ```
@@ -39,7 +39,7 @@ python src/aae_model.py -i data/Sulfatases/fasta/hmmsearch_gc90_gs25.fasta -o lo
 
 ## Interpolation
 
-Perform interpolation between sulfatase protein with pretrained model
+Perform interpolation between sulfatase proteins with pretrained model
 ```bash
 python src/interpolate_space.py -i data/fasta/hmmsearch_gc90_gs25.fasta.gz -c data/fasta/hmmsearch_gc90_gs25_encoded.npz -d data/sulfatase_decoder_weights.h5 -q 0 -t 10000 -o interpolated_seq1_seq10000.fasta -s 50
 ```

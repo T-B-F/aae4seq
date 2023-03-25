@@ -2,7 +2,7 @@ numpy==1.18.5
 scipy==1.5.4
 scikit-learn==0.23.2
 pandas==1.1.4
-tensorflow==2.3.1
+tensorflow==2.11.1
 biopython==1.78
 matplotlib==3.3.2 
 git+https://github.com/T-B-F/pybioutils
